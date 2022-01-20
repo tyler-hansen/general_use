@@ -37,5 +37,12 @@ then
 	exit 1
 
 else
-	parse_ini $2 $3 < $1
+	parse_ini $2 $3 < $1 | awk '{
+				    if ($1=="="){
+				    print $2
+				    } 
+				    else{
+				    print $1
+				    }
+			       }'
 fi
