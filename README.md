@@ -40,3 +40,4 @@ To assign to variable:
 $ var=$(read-ini config.ini FANTOM path)
 $ echo $var
 /data/hodges_lab/ATAC-STARR_B-cells/data/hansen-fong/fantom
+```
