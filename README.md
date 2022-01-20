@@ -40,11 +40,11 @@ An example config.ini file:
 ```
 $ cat config.ini
 [FANTOM]
-path=/data/hodges_lab/ATAC-STARR_B-cells/data/hansen-fong/fantom
-erna_all=/data/hodges_lab/ATAC-STARR_B-cells/data/hansen-fong/fantom/hg38.enhancers.bed
+path = /data/hodges_lab/ATAC-STARR_B-cells/data/hansen-fong/fantom
+erna_all = /data/hodges_lab/ATAC-STARR_B-cells/data/hansen-fong/fantom/hg38.enhancers.bed
 
 [RESULTS]
-path=/data/hodges_lab/ATAC-STARR_B-cells/results/results_human-evolution/fantom-comparison
+path = /data/hodges_lab/ATAC-STARR_B-cells/results/results_human-evolution/fantom-comparison
 ``` 
 To extract the _path_ variable from _[FANTOM]_:
 ```
