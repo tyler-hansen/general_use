@@ -19,7 +19,22 @@ Arguments:
          arg1 = config.ini file
          arg2 = section (defined in ini file with [])
          arg3 = variable key (within the section)
-```        
+```
+## Install
+```
+$ wget https://github.com/tyler-hansen/general_use/raw/main/read-ini
+$ chmod 700 read-ini
+```
+_Test install:_         
+```
+$ read-ini
+ERROR: Required parameters not passed
+Syntax: read-ini [arg1] [arg2] [arg3]
+Arguments:
+         arg1 = config.ini file
+         arg2 = section (defined in ini file with [])
+         arg3 = variable key (within the section)
+```
 ## Tutorial
 An example config.ini file:
 ```
