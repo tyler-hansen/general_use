@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tyler-hansen/general_use/HEAD)
 # General Use
 
 Code in this repository is useful for many applications outside of NGS data analysis. 
